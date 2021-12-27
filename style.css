@@ -1,5 +1,8 @@
 html {
-    --bg: #FDE1EE;
-    --bg-panel: #F5DDE7;
-    
+    background: #FDE1EE;
+
+}
+
+header {
+    font-size: 300px;
 }
