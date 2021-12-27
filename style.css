@@ -4,5 +4,13 @@ html {
 }
 
 header {
-    font-size: 300px;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
 }
