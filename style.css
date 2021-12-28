@@ -8,9 +8,51 @@ header {
     font-family: 'Staatliches', cursive;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.sideBar {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #C38BA2;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 
 }
+
+.sideBar a {
+    padding: 6px 6px 6px 26px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #24010F;
+    display: block;
+    transition: 0.4s;
+
+}
+
+
+.sideBar a:hover {
+    color: #49011F;
+
+}
+
+
+.sideBar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+
+@media screen and (max-height: 450px){
+    .sideBar {padding-top: 15px;}
+    .sideBar a { font-size: 18px;}
+}
+    
+
+
