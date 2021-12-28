@@ -8,51 +8,37 @@ header {
     font-family: 'Staatliches', cursive;
 }
 
-.sideBar {
-    height: 100%;
-    width:0;
-    position: fixed;
-    z-index: 1;
-    top:0;
-    left: 0;
-    background-color: #C38BA2;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff5ca896;
+  }
 
-}
-
-.sideBar a {
-    padding: 6px 6px 6px 26px;
+  li {
+    display: inline;
+    padding: 8px;
+    font-size: 20px;
+    font-family: fantasy;
     text-decoration: none;
-    font-size: 30px;
-    color: #24010F;
-    display: block;
-    transition: 0.4s;
+    
+  }
+  
+  li a {
+      display: inline;
+      color:rgb(209, 231, 250);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
 
-}
+  }
 
-
-.sideBar a:hover {
-    color: #49011F;
-
-}
-
-
-.sideBar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-
-}
+  li a:hover {
+      background-color: rgb(255, 224, 239);
+  }
 
 
-@media screen and (max-height: 450px){
-    .sideBar {padding-top: 15px;}
-    .sideBar a { font-size: 18px;}
-}
     
 
 
