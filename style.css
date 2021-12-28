@@ -3,9 +3,10 @@ html {
 
 }
 
-header {
-    font-size: 60px;
+.intro {
+    font-size: 20px;
     font-family: 'Staatliches', cursive;
+    text-align:end;
 }
 
 ul {
@@ -18,10 +19,11 @@ ul {
 
   li {
     display: inline;
-    padding: 8px;
+    padding: 30px;
     font-size: 20px;
     font-family: fantasy;
     text-decoration: none;
+    
     
   }
   
@@ -29,7 +31,7 @@ ul {
       display: inline;
       color:rgb(209, 231, 250);
       text-align: center;
-      padding: 14px 16px;
+      padding: 30px 16px;
       text-decoration: none;
 
   }
@@ -40,7 +42,13 @@ ul {
   }
 
   h1 {
-      font-family: monospace;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
   }
 
 
