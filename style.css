@@ -36,6 +36,11 @@ ul {
 
   li a:hover {
       background-color: rgb(255, 224, 239);
+      color: rgb(161, 0, 81);
+  }
+
+  h1 {
+      font-family: monospace;
   }
 
 
