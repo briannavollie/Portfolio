@@ -56,13 +56,19 @@ html {
     font-family: 'Abel', sans-serif;
     font-size: 30px;
     text-align: center;
-    margin: 50px ;
+    margin: 25px ;
     
   }
 
   .all {
       font-family: 'Abel', sans-serif;
       font-size: 55px;
+      color: black;
+  }
+
+  .location {
+      font-family: 'Abel', sans-serif;
+      font-size: 45px;
       color: black;
   }
 
