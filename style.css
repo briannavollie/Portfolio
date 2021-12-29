@@ -9,7 +9,7 @@ html {
     text-align:end;
 }
 
-ul {
+.nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ ul {
   
   li a {
       display: inline;
-      color:rgb(209, 231, 250);
+      color:rgb(2, 0, 2);
       text-align: center;
       padding: 30px 16px;
       text-decoration: none;
