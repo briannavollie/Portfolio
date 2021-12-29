@@ -6,7 +6,7 @@ html {
 .intro {
     font-size: 20px;
     font-family: 'Staatliches', cursive;
-    text-align:end;
+    align-self: flex-end;
 }
 
 .nav{
@@ -68,7 +68,7 @@ html {
 
   .location {
       font-family: 'Abel', sans-serif;
-      font-size: 45px;
+      font-size: 30px;
       color: black;
   }
 
