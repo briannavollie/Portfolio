@@ -54,6 +54,7 @@ html {
   .skills {
     display: block;
     font-family: 'Abel', sans-serif;
+    font-size: 30px;
     text-align: center;
     margin: 50px ;
     
